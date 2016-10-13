@@ -2,8 +2,8 @@
 
 // DATABASE CONNECTION
 echo "<b>-------CONNECTION TO DATABASE -------</b><br>";
-$database_name="magento";
-$mysqli = mysqli_connect("127.0.0.1", "root", "root", $database_name);
+$database_name="DATA BASE";
+$mysqli = mysqli_connect("127.0.0.1", "USER_DATABASE", "PASSW_DATABASE", $database_name);
 
 if (!$mysqli) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;
